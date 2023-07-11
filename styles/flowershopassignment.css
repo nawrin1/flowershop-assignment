@@ -235,3 +235,50 @@ header{
 #description{
     padding:0 650px;
 }
+
+#image{
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    border-radius: 8px;
+    /* width:100%; */
+    background-repeat: no-repeat;
+    background-size: auto; 
+    background-position: center;
+    margin:auto;
+    
+
+}
+.details{
+    color: #272727;
+    text-align: center;
+
+    font-size: 50px;
+
+    font-weight: 800;
+    padding:50px 0 0 0;
+}
+.details-text{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 400;
+    /* line-height: 30px; */
+    padding:0 0 50px 0;
+}
+.inputs input[type="text"]{
+    border-radius: 8px;
+    background: #FFF;
+    border:0;
+    width: 650px;
+    height: 65px;
+}
+.inputs{
+    align-items: center;
+    display:flex;
+    padding:0 0 100px 0;
+
+}
+#email-icon{
+    padding:0 17px 0 575px;
+}

@@ -31,6 +31,12 @@ header{
     background: #E55473;
     border:0;
     padding:20px 43px;
+    color: #FFF;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
 }
 .banner-title{
     color: #272727;
@@ -100,7 +106,7 @@ header{
 #second{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding:90px 47px 51px 47px;
+    padding:90px 47px 59px 47px;
     /* height:350px;
     width:350px; */
 }
@@ -158,4 +164,48 @@ header{
     background: rgba(39, 39, 39, 0.05);
     margin:0 500px 0 600px;
     max-width:1500px;
+}
+.deal{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-one{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width:950px; */
+    /* padding:30px 230px 140px 230px; */
+}
+.deal-one-text{
+    width:2000px;
+}
+    
+
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding:0 0 0 723px;
+}
+.rose-pic{
+    padding:100px 729px 100px 0;
+}
+.deal-context{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding:0 275px 0 680px;
+}
+
+.sign-up{
+    text-align: center;
+    margin:auto;
+    align-items: center;
+    display: flex;
+    
+}
+.bt{
+    padding:0 0 0 390px;
 }

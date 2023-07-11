@@ -23,7 +23,7 @@ header{
 }
 
 .banner-content{
-    max-width:750px;
+    max-width:800px;
     
 }
 .btn-primary{
@@ -45,6 +45,8 @@ header{
 
     font-weight: 800;
     margin-bottom:0;
+    margin-top:0;
+    
 }
 .banner-text{
     color: rgba(39, 39, 39, 0.60);
@@ -213,6 +215,7 @@ header{
     display:flex;
     gap:24px;
     padding:0 0 0 250px;
+    margin:0 0 100px 0;
 }
 .title{
     color: #272727;
@@ -277,8 +280,38 @@ header{
     align-items: center;
     display:flex;
     padding:0 0 100px 0;
-
 }
 #email-icon{
     padding:0 17px 0 575px;
+}
+.bg-color{
+    background: #111010;
+    margin:200px 0 0 0;
+    
+    height: 450px;
+}
+.foot-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+
+    font-size: 18px;
+    padding:0 1000px 10px 1000px;
+    font-weight: 400;
+    display:flex;
+
+}
+.foot-title{
+    color:rgba(255, 255, 255, 0.90);
+    font-size: 48px;
+    text-align: center;
+    padding:150px 0 5px 0;
+    font-weight: 800;
+}
+.foot{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+
+    font-size: 16px;
+
+    font-weight: 400;
 }
